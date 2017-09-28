@@ -1,0 +1,30 @@
+#rotate{
+	transform:rotate(180deg);
+}
+
+#skew{
+	transform:skew(20deg,10deg);
+}
+
+#all{
+	transform:rotate(180deg);
+	transform:skew(180deg,20deg);
+}
+
+#matrix{
+	transform:matrix(1, 0, 0.5, 1, 150, 0);
+}
+
+
+@keyframes fadeIn{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:100%;
+	}
+}
+
+#animate{
+	animation:fadeIn 2s backwards;
+}
