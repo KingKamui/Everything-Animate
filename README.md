@@ -25,10 +25,10 @@ An Introduction to CSS animations and tranform property
 
 ## CSS Tasks
 <ul>
-  <li>Apply a transform property to rotate the div with an id of 'rotate'</li>
-  <li>Apply a transform property to skew the div with an id of 'skew'</li>
-  <li>Apply multiple properties to the div with an id of 'all'</li>
-  <li>Create new HTML element and use the transform property, `matrix`</li>
+      <li>Apply a transform property to rotate the div with an id of 'rotate'</li>
+      <li>Apply a transform property to skew the div with an id of 'skew'</li>
+      <li>Apply multiple properties to the div with an id of 'all'</li>
+      <li>Create new HTML element and use the transform property, `matrix`</li>
   <li>Create an input element and use the pseudo selector `:focus` on it</li>
   <li>Create and name a keyframe.
   <li>Add css properties to 2-3 stages of the keyframe animation</li>
