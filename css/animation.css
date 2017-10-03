@@ -1,7 +1,7 @@
 #rotate{
 	transform:rotate(180deg);
 }
-@keyframes rotate{
+@-webkit-keyframes rotate{
   0%{
     transform:rotate(25deg);
     font-size:20x;
@@ -25,16 +25,7 @@
 }
 
 #skew{
-	transform:everything;
-}
-
-@keyframes everything{
-	from{
-		transform:rotate(180deg);
-	}
-	to{
-		transform:translate(100px, 100px);
-	}
+	transform:skew(100px);
 }
 
 #all{
@@ -50,7 +41,7 @@
 }
 
 
-@keyframes fadeIn{
+@-webkit-keyframes fadeIn{
 	from{
 		opacity:0;
 	}
@@ -68,7 +59,7 @@
 #pseudo2:focus{
     background-color:skyblue;
 }
-@keyframes FiveStages{
+@-webkit-keyframes FiveStages{
 	0%{
         color:white;
         font-size:10px;
@@ -105,7 +96,7 @@
         animation-duration: 7s;
         animation-iteration-count:infinite;
 }
-@keyframes rotate{
+@-webkit-keyframes rotate{
   0%{
     transform:rotate(0deg);
     font-size:100px;
