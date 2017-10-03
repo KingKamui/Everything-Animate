@@ -25,31 +25,43 @@
 }
 
 #skew{
-	-webkit-transform:skew(100px);
+	-webkit-transform:skewX(20deg);
+}
+
+
+@-webkit-keyframes everything{
+  50%{
+    transform:rotate(180deg);
+    opacity:50%;
+    background-colorcolor:aqua;
+  }
+  100%{
+    transform:skewX(20deg);
+    opacity:100%;
+    background-color:black;
+  }
 }
 
 #all{
-    -webkit-transform:rotate(160);
-    -webkit-transform:skewX(180);
-}
-
-
-#matrix{
-	  -webkit-animation:everything;
+    -webkit-animation:everything;
     -webkit-animation-duration: 1s;
-	  -webkit-animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
 }
 
+#Matrix{
+    -webkit-transform: matrix(1, 0, 0.5, 1, 150, 0);;
+}
 
 @-webkit-keyframes fadeIn{
-	from{
-		opacity:0;
-	}
-	to{
-		opacity:100%;
-	}
+  from{
+    opacity:0;
+    background-colorcolor:aqua;
+  }
+  to{
+    opacity:100%;
+    background-color:black;
+  }
 }
-
 #animate{
 	  -webkit-animation:fadeIn;
     -webkit-animation-duration:5s;
